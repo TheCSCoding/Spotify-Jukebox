@@ -6,6 +6,7 @@
 
 html{
   font-family: 'Nunito Sans', sans-serif;
+  line-height: 1.5;
 }
 
 body {
@@ -13,8 +14,6 @@ body {
   color:#ffffff;
   padding: 0 16px;
   max-width: 448px;
-
-
 }
 #root{
   background-color: #000000;
@@ -22,9 +21,7 @@ body {
 header {
   margin: 0;
   padding: 0;
-  box-shadow: 0 0 10px 0 rgba(255, 251, 251, 0.3);
 }
-
 header h1 {
   display: flex;
   justify-content: center;  
@@ -38,9 +35,6 @@ header h1 {
 header h2{
   font-family: 'Roboto', sans-serif;
 
-}
-h3{
-  padding: .7em 0;
 }
 
 ul{
@@ -86,8 +80,11 @@ button{
   padding:0.6em 2em;
   font-weight: 900;
   
+  
 }
-
+.sync-btn{
+  width: 100%;
+}
 .similar-artists{
   display: flex;
   flex-direction: column;

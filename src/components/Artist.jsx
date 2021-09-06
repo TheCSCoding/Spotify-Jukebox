@@ -22,8 +22,8 @@ function Artist() {
     
             
             <div ClassName="lyric-info">
-            <button>SYNC TO LIGHT</button>
-                <h3>Lyrics</h3>
+            <button className="sync-btn">SYNC TO LIGHT</button>
+                <h3>LYRICS</h3>
                 <p>orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  Folor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. commodo ligula eget dolor. Amet, consectetuer adipiscing elit. Aenean</p>
                 
             </div>
@@ -45,6 +45,8 @@ function Artist() {
             <button>SHOW MORE</button>
             <div ClassName="similar-artists">
               <h2>Similar Artists</h2>
+              <img  src="img/gal.jpg"  alt="lettuce"/>
+              <img  src="img/gal.jpg"  alt="lettuce"/>
               <img  src="img/gal.jpg"  alt="lettuce"/>
             </div>
     </div>
