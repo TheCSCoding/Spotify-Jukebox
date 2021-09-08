@@ -2,10 +2,11 @@ import React from "react";
 
 function Artist() {
   return (
+ 
     <div className="artist">
-      <img className="artist-album" src="img/lettuce-redrock.jpg" width="416px;" alt="lettuce"/>
+      <img className="artist-album" src="img/lotus.jpg" width="416px;" alt="lettuce"/>
       <div className="info-container">
-            <div ClassName="artist-info">
+            <div className="artist-info">
                 <h2>Silence is Golden</h2>
                 <h3>ARTIST</h3>
                 <p>lettuce</p>
@@ -13,15 +14,15 @@ function Artist() {
                 <p>2019</p>
             </div>
       
-            <div ClassName="album-info">
-           
+            <div className="album-info">
+              
                 <h3>LABEL</h3>
                 <p>Blue Note</p>
             </div>
                 
     
             
-            <div ClassName="lyric-info">
+            <div className="lyric-info">
             <button className="sync-btn">SYNC TO LIGHT</button>
                 <h3>LYRICS</h3>
                 <p>orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  Folor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. commodo ligula eget dolor. Amet, consectetuer adipiscing elit. Aenean</p>
@@ -29,27 +30,34 @@ function Artist() {
             </div>
 
            
-              <div ClassName="track-info">
-                  <h3>TRACKLIST</h3>
+              <div className="track-info">
+                  <h3 className="trk-lst">TRACKLIST</h3>
                   <ol>
                     <li>Lettuce- Give it up!</li>
                     <li>Lettuce- Mt Cushmore</li>
                     <li>Lettuce- LIVE at Madison</li>
                     <li>Lettuce- Frankenstein</li>
                   </ol>
-            </div>
-            
-          </div>
       
-        
-            <button>SHOW MORE</button>
-            <div ClassName="similar-artists">
+                  
+            </div>
+            <button className="shw-btn">SHOW MORE</button>
+            <div className="similar-artists">
+            
               <h2>Similar Artists</h2>
               <img  src="img/gal.jpg"  alt="lettuce"/>
               <img  src="img/gal.jpg"  alt="lettuce"/>
               <img  src="img/gal.jpg"  alt="lettuce"/>
             </div>
+
+          </div>
+
+      
+        
+         
+           
     </div>
+
   );
 }
 
