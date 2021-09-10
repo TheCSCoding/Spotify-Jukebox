@@ -1,13 +1,13 @@
 import React from "react";
 
-function Artist() {
+function Artist(props) {
   return (
  
     <div className="artist">
-      <img className="artist-album" src="img/lotus.jpg" width="416px;" alt="lettuce"/>
+      <img className="artist-album" src={props.img} alt=""/>
       <div className="info-container">
             <div className="artist-info">
-                <h2>Silence is Golden</h2>
+                <h2>{props.name}</h2>
                 <h3>ARTIST</h3>
                 <p>lettuce</p>
                 <h3>RELEASE DATE</h3>
